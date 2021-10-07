@@ -12,8 +12,126 @@
 			rel="stylesheet"
 		/>
 
+		<!-- Primary Meta Tags -->
 		<title>Dropdown menu</title>
+		<meta name="title" content="Dropdown menu" />
+		<meta name="author" content="Andres Valdivia Cuzcano" />
+		<meta
+			name="description"
+			content="Menú dropdown con distintos subniveles y diseño responsivo"
+		/>
 
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:url"
+			content="https://pandresvaldivia.github.io/Dropdown-menu/"
+		/>
+		<meta property="og:title" content="Dropdown menu" />
+		<meta
+			property="og:description"
+			content="Menú dropdown con distintos subniveles y diseño responsivo"
+		/>
+		<meta
+			property="og:image"
+			content="https://pandresvaldivia.github.io/Dropdown-menu/assets/images/thumbnail.png"
+		/>
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta
+			property="twitter:url"
+			content="https://pandresvaldivia.github.io/Dropdown-menu/"
+		/>
+		<meta property="twitter:title" content="Dropdown menu" />
+		<meta
+			property="twitter:description"
+			content="Menú dropdown con distintos subniveles y diseño responsivo"
+		/>
+		<meta
+			property="twitter:image"
+			content="https://pandresvaldivia.github.io/Dropdown-menu/assets/images/thumbnail.png"
+		/>
+
+		<!-- Favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="./assets/favicon/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="./assets/favicon/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="./assets/favicon/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="./assets/favicon/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="./assets/favicon/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="./assets/favicon/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="./assets/favicon/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="./assets/favicon/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/favicon/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="./assets/favicon/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="./assets/favicon/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./assets/favicon/manifest.json" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta
+			name="msapplication-TileImage"
+			content="./assets/favicon/ms-icon-144x144.png"
+		/>
+		<meta name="theme-color" content="#ffffff" />
+
+		<!-- Styles -->
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="stylesheet" href="./css/icon.css" />
 		<link rel="stylesheet" href="./css/navbar.css" />
@@ -27,40 +145,46 @@
 							<ul class="navbar-menu">
 								<li>
 									<a href="#">Cursos y carreras</a>
-									<ul class="navbar-submenu">
-										<li><a href="#">Código</a></li>
-										<li><a href="#">Data</a></li>
-										<li>
-											<a href="#">UX/UI <i class="icon-arrow"></i></a>
-											<ul class="navbar-submenu-details">
-												<li><a href="#">UX Writing</a></li>
-												<li><a href="#">Research</a></li>
-												<li><a href="#">Figma</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Producto</a></li>
-									</ul>
+									<div class="submenu-container">
+										<ul class="navbar-submenu">
+											<li><a href="#">Código</a></li>
+											<li><a href="#">Data</a></li>
+											<li>
+												<a href="#">UX/UI <i class="icon-arrow"></i></a>
+												<ul class="navbar-submenu-details">
+													<li><a href="#">UX Writing</a></li>
+													<li><a href="#">Research</a></li>
+													<li><a href="#">Figma</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Producto</a></li>
+										</ul>
+									</div>
 								</li>
 								<li>
 									<a href="#">Lanzamientos</a>
 								</li>
 								<li>
 									<a href="#">Proyectos</a>
-									<ul class="navbar-submenu">
-										<li><a href="#">Todos los proyectos</a></li>
-										<li><a href="#">Proyectos de los estudiantes</a></li>
-										<li><a href="#">Estudiantes destacados</a></li>
-										<li><a href="#">Becas</a></li>
-									</ul>
+									<div class="submenu-container">
+										<ul class="navbar-submenu">
+											<li><a href="#">Todos los proyectos</a></li>
+											<li><a href="#">Proyectos de los estudiantes</a></li>
+											<li><a href="#">Estudiantes destacados</a></li>
+											<li><a href="#">Becas</a></li>
+										</ul>
+									</div>
 								</li>
 								<li>
 									<a href="#">Comunidad</a>
-									<ul class="navbar-submenu">
-										<li><a href="#">Blog</a></li>
-										<li><a href="#">Opiniones</a></li>
-										<li><a href="#">Certificados</a></li>
-										<li><a href="#">Becas</a></li>
-									</ul>
+									<div class="submenu-container">
+										<ul class="navbar-submenu">
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">Opiniones</a></li>
+											<li><a href="#">Certificados</a></li>
+											<li><a href="#">Becas</a></li>
+										</ul>
+									</div>
 								</li>
 							</ul>
 						</nav>
